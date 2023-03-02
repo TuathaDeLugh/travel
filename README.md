@@ -4,8 +4,8 @@ Kick-start front-end and admin dashboard.
 
 ## 🚀 Quick start
 
-clone repo. in htdoc filder in xampp or lampp(Linux).
-ctrl + V these queries in mysql in php my admin
+1. clone repo. in htdoc filder in xampp or lampp(Linux).
+2. ctrl + V these queries in mysql in php my admin
 ```bash
 -- database
 create database db;
@@ -20,7 +20,7 @@ create table contact (c_no int AUTO_INCREMENT PRIMARY KEY, name varchar(255), em
 --calls
 create table calls (mno varchar(255));
 ```
-Now just launch site & click for admin login
+3. Now just launch site & click for admin login
   -username : admin
   -password : admin
-now insert post & enjoy
+4. now insert post & enjoy

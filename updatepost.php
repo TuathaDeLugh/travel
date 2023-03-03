@@ -46,7 +46,7 @@
                 </div><!--container-->
         </nav>
     </header>
-    <main id="md" class="md">
+    <main>
         <div class="container page-wrapper">
             <h1>Admin Page</h1>
             <hr>

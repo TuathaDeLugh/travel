@@ -151,7 +151,7 @@
                 while ($result = mysqli_fetch_array($query)) {
                     $id = $result['page_no']; ?>
                     <div class="card">
-                        <img src="<?php echo $result['image'];?>" class="card-img-top" alt="Image">
+                        <img src="<?php echo $result['image'];?>" class="card-img-top" alt="<?php echo $result['title'];?>">
                         <div class="card-body">
                             <h5 class="card-title">
                             <?php echo $result['title'];?>

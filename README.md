@@ -4,7 +4,7 @@ Kick-start front-end and admin dashboard.
 
 ## 🚀 Quick start
 
-1. clone repo. in htdoc filder in xampp or lampp(Linux).
+1. clone repo. in htdoc folder in xampp or lampp(Linux).
 2. ctrl + V these queries in mysql in php my admin
 ```bash
 -- database

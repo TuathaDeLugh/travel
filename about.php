@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Sailor Travel</title>
+    <title>Go Travel</title>
     <link rel="stylesheet" href="public/css/bootstrap.min.css">
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.css" />
@@ -32,7 +32,7 @@
                         $rediract = "login.php";
                     }
                     ?>
-                    <a class="navbar-brand" href="<?php echo $rediract ?>">Sailor Travel!</a>
+                    <a class="navbar-brand" href="<?php echo $rediract ?>">Go Travel!</a>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                             <li class="nav-item active">

@@ -35,7 +35,7 @@
                     $rediract = "login.php";
                 }
                 ?>
-                <a class="navbar-brand" href="<?php echo $rediract ?>">Sailor Travel!</a>
+                <a class="navbar-brand" href="<?php echo $rediract ?>">Go Travel!</a>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item active">

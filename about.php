@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Sailor Travel</title>
+    <title>Go Travel</title>
     <link rel="stylesheet" href="public/css/bootstrap.min.css">
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.css" />
@@ -32,7 +32,7 @@
                         $rediract = "login.php";
                     }
                     ?>
-                    <a class="navbar-brand" href="<?php echo $rediract ?>">Sailor Travel!</a>
+                    <a class="navbar-brand" href="<?php echo $rediract ?>">Go Travel!</a>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                             <li class="nav-item active">
@@ -71,7 +71,29 @@
     </div>
 </div>
 <main id="md" class="md">
-    <div class="container">This is about page</div>
+    <div class="container"><p>
+    <br>
+Welcome to our travel site! We are dedicated to helping you plan your dream vacation and create unforgettable memories.
+<br>
+<br>
+Our team of travel experts has a passion for exploring the world and discovering hidden gems. We are committed to providing you with the best travel advice, recommendations, and insider tips to help you make the most of your trip.
+<br>
+<br>
+Whether you're looking for adventure, relaxation, or cultural experiences, we have something for everyone. Our site offers a wide range of destinations, from exotic tropical islands to bustling cities and scenic countryside. We also offer a variety of travel options, including flights, hotels, tours, and activities.
+<br>
+<br>
+At our travel site, we understand that planning a trip can be overwhelming, which is why we strive to make it as easy and stress-free as possible. Our user-friendly website allows you to browse and compare prices, book your travel arrangements, and manage your itinerary all in one place.
+<br>
+<br>
+We are committed to providing excellent customer service and support throughout your journey. If you have any questions or concerns, our friendly and knowledgeable team is always available to assist you.
+<br>
+<br>
+Thank you for choosing our travel site. We look forward to helping you plan your next adventure!
+<br>
+<br>
+    </p>
+
+    </div>
 </main>
 <!--Modal window of Contact Us button -->
         <div class="modal" tabindex="-1" role="dialog" id="myModal">

@@ -35,7 +35,7 @@
                     $rediract = "login.php";
                 }
                 ?>
-                <a class="navbar-brand" href="<?php echo $rediract ?>">Sailor Travel!</a>
+                <a class="navbar-brand" href="<?php echo $rediract ?>">Go Travel!</a>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
@@ -83,7 +83,7 @@ $result = mysqli_fetch_array($query);
         <div class="container sight-container">
             <h1><?php echo $result['title']?></h1>
             <hr>
-            <img src="<?php echo $result['image']?>" alt="GG">
+            <img src="<?php echo $result['image']?>" alt="<?php echo $result['title']?>">
             <hr>
             
             <p class="h5">Location: <?php echo $result['area']?></p>

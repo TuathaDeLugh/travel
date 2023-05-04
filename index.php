@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Sailor Travel</title>
+    <title>Go Travel</title>
     <link rel="stylesheet" href="public/css/bootstrap.min.css">
     <link rel="stylesheet" href="public/css/style.css">
     <style>
@@ -49,7 +49,7 @@
                     
                 }
                 ?>
-                <a class="navbar-brand" href="<?php echo $rediract ?>">Sailor Travel!</a>
+                <a class="navbar-brand" href="<?php echo $rediract ?>">Go Travel!</a>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
@@ -151,7 +151,7 @@
                 while ($result = mysqli_fetch_array($query)) {
                     $id = $result['page_no']; ?>
                     <div class="card">
-                        <img src="<?php echo $result['image'];?>" class="card-img-top" alt="Image">
+                        <img src="<?php echo $result['image'];?>" class="card-img-top" alt="<?php echo $result['title'];?>">
                         <div class="card-body">
                             <h5 class="card-title">
                             <?php echo $result['title'];?>
